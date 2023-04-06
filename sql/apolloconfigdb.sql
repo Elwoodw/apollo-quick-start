@@ -86,7 +86,7 @@ CREATE TABLE `AppNamespace` (
 DROP TABLE IF EXISTS `Audit`;
 
 CREATE TABLE `Audit` (
-  `Id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `Id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键'
   `EntityName` varchar(50) NOT NULL DEFAULT 'default' COMMENT '表名',
   `EntityId` int(10) unsigned DEFAULT NULL COMMENT '记录ID',
   `OpName` varchar(50) NOT NULL DEFAULT 'default' COMMENT '操作类型',
